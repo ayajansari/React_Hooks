@@ -33,3 +33,13 @@ step8. look in files if postcss.config.js file is not there then
         }
 
 step9. npm install postcss postcss-import postcss-preset-env autoprefixer --save-dev
+
+***useState Hook
+
+When you update any state variable using the setState() function ,React schedules 
+a re-render of that component(for example entire APP function ). This re-render is
+triggered because React needs to update the UI to reflect the new state.
+
+React re-renders entire current component/function and  all the child components,
+irrespective of the props passed to child components.
+Also note->prop should not be function containing useCallback  becuase it will work differently for it.
