@@ -17,7 +17,7 @@ export default function App() {
   const [val,setVal]=useState("");
 
 
-  console.log("outside upper")  //executes when any state variable changes
+  console.log("outside upper")  //a executes when any state variable changes
 
   //useCallback only returns the function(either previously cached one or new one) not call the function
   //when page first time render it will execute entire function first , cache it, and render the component Second also.
