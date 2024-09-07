@@ -2,8 +2,4 @@
 *
 !.gitignore
 
-!useEffect
-useEffect/**
-!useCallback
-useCallback/**
-!1_intro.txt
+!App.jsx
