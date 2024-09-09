@@ -1,13 +1,8 @@
 import { useState, useCallback} from 'react'
-import Home from '../home'
-
 import './App.css'
 
 //NOTE-> useCallback returns function(new or old) but not call/execute function.
 //we can execute that function by passing it to components .
-
-
-
 
 function App() {
 
@@ -50,12 +45,9 @@ function App() {
         <br />
         <br />
         <Sample1 value={cnt1}/>
-   
-      
     </>
   )
 }
-
 export default App
 
 
@@ -65,7 +57,7 @@ function Sample({value}){
 
   return(
 
-      <div> Sample Division</div>
+    <div> Sample Division</div>
   )
 }
 
@@ -76,6 +68,6 @@ function Sample1({value}){
 
   return(
 
-      <div> Sample2 Division</div>
+    <div> Sample2 Division</div>
   )
 }

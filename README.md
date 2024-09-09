@@ -1,2 +1,2 @@
 # React_Hooks
-this repo contains Hooks - useState,useEffect,useCallback
+this repo contains Hooks - useState,useEffect,useCallback,memo

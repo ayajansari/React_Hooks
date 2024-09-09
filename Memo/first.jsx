@@ -1,5 +1,4 @@
 import { useState, useEffect} from 'react'
-import { Suspense } from 'react'
 import Second from './second';
 
 
