@@ -13,7 +13,7 @@ function App() {
 
   //useCallback only returns the function(either previously cached one or new one) not call the function
   //when page first time render it will execute entire function first , cache it, and render the component Second also.
-  //when cnt2 changes, on effect on useCallback so it will provide previously cached function
+  //when cnt2 changes, no effect on useCallback so it will provide previously cached function
   //means handleClick var has same function ,i.e. it is not changed and it is also passed to 
   //Second component as prop,and  as it  also not changed therefore the component Second 
   //will not be re-rendered again.
