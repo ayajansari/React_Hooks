@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import { forwardRef } from "react";
 
+//forwardRef exposes the DOM (i.e input tag ,button ) to parent .
 //NOTE-> forwardRef takes exactly 2 params. props and ref.
 //one ref is used for only single use so if if you want to 
 //use then make multiple refs and pass as props.
+
 const Child=forwardRef(function Child(props,ref){
     const {ref2,ref3,...otherProps}=props;
     const [cnt,setCnt]=useState(0);
