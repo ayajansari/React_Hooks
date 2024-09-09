@@ -32,7 +32,8 @@ step8. look in files if postcss.config.js file is not there then
             },
         }
 
-step9. npm install postcss postcss-import postcss-preset-env autoprefixer --save-dev
+step9. npm install autoprefixer --save-dev
+
 
 ***useState Hook
 
