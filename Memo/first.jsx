@@ -11,7 +11,7 @@ export default function App() {
     <>    
      {/* entire App component re-renders when any state var. changes irrespective
      of the props passed.So to stop re-rendering or child components we have to pass 
-     the child component in memo()  function.. */}
+     the child component in memo()  function. */}
    
         <div>
           <h1 className='text-8xl pb-10 text-center'>Home Page</h1> 
