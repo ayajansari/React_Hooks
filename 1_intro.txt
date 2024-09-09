@@ -1,0 +1,45 @@
+React: Deals with creating components and maintaining the virtual DOM.
+ReactDOM: Deals with rendering those components and updating the real DOM.
+
+Hooks - Use different React features from your components.
+Directives- Provide instructions to bundlers compatible with React Server Components.
+
+API-APIs (Application Programming Interfaces) are sets of rules and protocols
+    that allow different software applications to communicate with each other. 
+    They serve as an intermediary that lets applications, databases, and devices 
+    talk to each other. 
+
+Tailwind- 
+step1. npm init
+step2. npm create vite@latest( select react->js)
+step3. cd create_folder_name
+step4. npm install -D tailwindcss
+step5. npx tailwindcss init
+step6. change content in tailwind.config.js file with 
+        content: [
+            "./src/**/*.{js,jsx,ts,tsx}",
+        ],
+step7. add below in index.css
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+step8. look in files if postcss.config.js file is not there then
+       create it manually and add below in that file
+       export default {
+            plugins: {
+            tailwindcss: {},
+            autoprefixer: {},
+            },
+        }
+
+step9. npm install postcss postcss-import postcss-preset-env autoprefixer --save-dev
+
+***useState Hook
+
+When you update any state variable using the setState() function ,React schedules 
+a re-render of that component(for example entire APP function ). This re-render is
+triggered because React needs to update the UI to reflect the new state.
+
+React re-renders entire current component/function and  all the child components,
+irrespective of the props passed to child components.
+Also note->prop should not be function containing useCallback  becuase it will work differently for it.
